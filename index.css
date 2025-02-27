@@ -1,0 +1,102 @@
+/* Fonts */
+@font-face {
+  font-family: sans;
+  src: url(open-sans.regular.ttf);
+}
+
+@font-face {
+  font-family: Fredoka;
+  src: url(Fredoka-Medium.ttf);
+}
+
+@font-face {
+  font-family: Fredoka-bold;
+  src: url(Fredoka-Bold.ttf);
+}
+
+/* General CSS */
+
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url(Screenshot\ 2025-02-21\ 094549.png);
+    background-size: cover;
+  }
+
+  .bg-sign-1{
+    background-color: #F7FAFC;
+  }
+
+  .bg-blueyey{
+    background-color: #393F77;
+  }
+
+  .rounded-sup{
+    border-radius: 30px;
+  }
+
+  .rounded-sub{
+    border-radius: 18px;
+  }
+
+  .wid{
+    width: 30%;
+  }
+
+  .feedback input[type="text"], input[type="email"] {
+    width: 481px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid black; 
+    border-radius: 20px;
+    background-color: #c2c2ff; 
+    outline: none;
+  }
+  
+  .sidenav{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2E2F2E;
+    overflow-x: hidden;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .sidenav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    padding-top: 40px;
+    padding-right: 10px;
+  }
+  
+  .sidenav a:hover {
+    color: #b0b0b0;
+  }
+  
+  .main {
+    margin-left: 190px; /* Same as the width of the sidenav */
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  select.form-select{ 
+    border: 3px solid black !important;
+    background-color: #B3BAFF !important;
+    text-align: center;
+    text-align-last: center;
+    appearance: none;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .big-text{
+    font-size: 100px;
+  }
